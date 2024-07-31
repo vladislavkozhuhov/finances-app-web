@@ -19,5 +19,4 @@ Install dependencies
 
 ```
 npm install --legacy-peer-deps @angular-devkit/build-angular
-npm install bulma --save
 ```
