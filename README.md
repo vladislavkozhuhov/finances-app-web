@@ -1,19 +1,23 @@
-# Finances App
+# Finances Web
 
-#### Angular financial application using ASP.NET Web API
+Angular financial application using ASP.NET Web API
 
 ## Stack
 - [Angular](https://angular.io/Angular/) - A free and open-source front-end library
 - [ASP.NET](https://learn.microsoft.com/en-us/aspnet/core) - A framework for building web apps and services with .NET and C#.
-- [MS SQL](https://www.microsoft.com/en-US/sql-server/sql-server-downloads) - A relational database management system
-- [MinIO](https://min.io) - A high-performance, S3 compatible object store.
+- [EntityFramework Core](https://learn.microsoft.com/ru-ru/ef/core/) - A technology for accessing databases from Microsoft
 
-## How to launch a project
+## Launch a project
 
-
-Install docker and run docker-compose
-
+Clone the repository
 
 ```
-docker-compose up
+git clone https://github.com/vladislavkozhuhov/finances-web.git
+```
+
+Install dependencies
+
+```
+npm install --legacy-peer-deps @angular-devkit/build-angular
+npm install bulma --save
 ```
